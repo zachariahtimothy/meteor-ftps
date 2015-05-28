@@ -1,1 +1,1 @@
-ftps = Npm.require('ftps');
+FTPS = Npm.require('ftps');

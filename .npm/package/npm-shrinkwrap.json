@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ftps": {
+      "version": "http://dev1.netcentric.local/nexus/content/groups/npm-all/ftps/-/ftps-0.2.8.tgz",
+      "dependencies": {
+        "underscore": {
+          "version": "1.8.3"
+        }
+      }
+    }
+  }
+}

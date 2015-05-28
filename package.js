@@ -2,7 +2,7 @@ Package.describe({
    name: 'zcurtis:ftps',
    summary: "FTPS packaged for Meteor",
    git: 'https://github.com/zachariahtimothy/meteor-ftps.git',
-   version: "0.0.1"
+   version: "0.0.2"
 });
 
 Npm.depends({
@@ -11,5 +11,5 @@ Npm.depends({
 
 Package.on_use(function(api) {
      api.add_files('lib.js', 'server');
-     api.export('ftps');
+     api.export('FTPS');
 });
